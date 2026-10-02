@@ -53,6 +53,6 @@ python -m unittest discover -s tests
 
 ## Background
 
-Written in January 2022 by **Ido Shalom and Daniel Rodan** as an exercise in *Introduction to Programming* at the Hebrew University of Jerusalem (B.Sc. Statistics & Data Science). The basic encrypt/decrypt helpers at the top of `cipher.py` were provided by the course; the statistics and cracking logic are ours.
+Built in January 2022 by **Ido Shalom and Daniel Rodan** during the *Introduction to Programming* course at the Hebrew University of Jerusalem (B.Sc. Statistics & Data Science). The basic encrypt/decrypt helpers at the top of `cipher.py` were provided by the course; the statistics and cracking logic are ours.
 
 The sample texts are public-domain books from [Project Gutenberg](https://www.gutenberg.org/).

@@ -1,4 +1,10 @@
-# Template for cipher exercise
+##############################################################
+# File: cipher.py
+# Writer: <Ido Shalom>, <Daniel Rodan>
+# Exercise: intro2cs ex5 2021-2022
+# The helper functions at the top were provided by the course staff;
+# questions 7-10 and the helper methods at the bottom are our work.
+##############################################################
 import random
 import os
 from language_dict import *
@@ -115,6 +121,7 @@ def break_code_with_words(cipher, language_letters, language_words):
 
 
 def sort_dict_keys_by_value(dictionary):             # helper function for question 9.
+    dictionary = dict(dictionary)                    # work on a copy so the caller's statistics stay intact.
     sorted_keys = []
     while dictionary:                                # condition for a not empty dictionary.
         max_key, max_value = "", 0

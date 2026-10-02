@@ -2,7 +2,7 @@
 # File: language_dict.py
 # Writer: <Ido Shalom>, <Daniel Rodan>
 # Exercise: intro2cs ex5 2021-2022
-# Description: will be inside the README.py file.
+# Description: Letter and word statistics of English text (see README.md).
 ##############################################################
 
 
